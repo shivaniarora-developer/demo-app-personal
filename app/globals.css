@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+   .elisc_tm_partners ul li img {
+    max-width: 88%;
+    max-height: 100%;
+    margin: 33% auto;
+}
+#news .elisc_tm_news .list .meta .svg
+{
+  position: relative !important;
+  height: auto !important;
+  width: auto !important;
+}
+.elisc_tm_video .placeholder {
+  position: relative !important;
+  height: auto !important;
+  width: auto !important;
+  left: 0 !important;
+  top: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  color: transparent !important;
+}
+.elisc_tm_video .play
+{
+  height: auto !important;
+  width: auto !important;
+    top: 50% !important;
+    left: 50% !important;
+}
+.elisc_tm_read_more span {
+  top: 3px !important;
+  margin-left: 12px !important;
+}
+#news img.svg
+{
+  height: auto !important;
+    width: auto !important;
+}
+.elisc_tm_sidebar .name .back
+{
+  font-family: var(--font-kristi) !important;
+}
